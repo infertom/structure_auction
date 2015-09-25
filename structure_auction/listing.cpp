@@ -9,6 +9,7 @@ Advertisement * Listing::operator[](const int &number)
 	return NULL;
 }
 
+
 void Listing::add(Advertisement* ptr)
 {
 	objects.push_back(ptr);

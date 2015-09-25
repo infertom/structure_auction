@@ -1,31 +1,14 @@
-﻿生成启动时间为 2015/9/22 9:13:22。
-     1>项目“c:\Users\administrator\documents\visual studio 2010\Projects\structure_auction\structure_auction\structure_auction.vcxproj”在节点 2 上(build 个目标)。
-     1>PrepareForBuild:
-         正在创建目录“c:\users\administrator\documents\visual studio 2010\Projects\structure_auction\Debug\”。
-       InitializeBuildStatus:
-         正在创建“Debug\structure_auction.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+﻿生成启动时间为 2015/9/25 10:08:13。
+     1>项目“C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\structure_auction\structure_auction\structure_auction.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\structure_auction.unsuccessfulbuild”执行 Touch 任务。
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt advertisement.cpp bid.cpp bidhistory.cpp buildbidpage.cpp buildpage.cpp categories.cpp category.cpp client.cpp date.cpp group.cpp listing.cpp main.cpp processrequest.cpp
-         processrequest.cpp
-         main.cpp
-         listing.cpp
-         group.cpp
-         date.cpp
-         client.cpp
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt category.cpp
          category.cpp
-         categories.cpp
-         buildpage.cpp
-         buildbidpage.cpp
-         bidhistory.cpp
-         bid.cpp
-         advertisement.cpp
-         正在生成代码...
-     1>c:\users\administrator\documents\visual studio 2010\projects\structure_auction\structure_auction\group.cpp(8): warning C4715: “Group::operator[]”: 不是所有的控件路径都返回值
-     1>c:\users\administrator\documents\visual studio 2010\projects\structure_auction\structure_auction\listing.cpp(62): warning C4715: “mCmp”: 不是所有的控件路径都返回值
        ManifestResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\structure_auction.exe.embed.manifest.res" Debug\structure_auction_manifest.rc 
+         所有输出均为最新。
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\administrator\documents\visual studio 2010\Projects\structure_auction\Debug\structure_auction.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\structure_auction.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\administrator\documents\visual studio 2010\Projects\structure_auction\Debug\structure_auction.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\administrator\documents\visual studio 2010\Projects\structure_auction\Debug\structure_auction.lib" /MACHINE:X86 Debug\structure_auction.exe.embed.manifest.res
+         D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\structure_auction\Debug\structure_auction.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\structure_auction.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\structure_auction\Debug\structure_auction.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\structure_auction\Debug\structure_auction.lib" /MACHINE:X86 Debug\structure_auction.exe.embed.manifest.res
          Debug\advertisement.obj
          Debug\bid.obj
          Debug\bidhistory.obj
@@ -41,28 +24,15 @@
          Debug\processrequest.obj
        Manifest:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\structure_auction.exe.embed.manifest" /manifest Debug\structure_auction.exe.intermediate.manifest
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\structure_auction.exe.embed.manifest.res" Debug\structure_auction_manifest.rc 
+         所有输出均为最新。
        LinkEmbedManifest:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\administrator\documents\visual studio 2010\Projects\structure_auction\Debug\structure_auction.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\structure_auction.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\administrator\documents\visual studio 2010\Projects\structure_auction\Debug\structure_auction.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\administrator\documents\visual studio 2010\Projects\structure_auction\Debug\structure_auction.lib" /MACHINE:X86 Debug\structure_auction.exe.embed.manifest.res
-         Debug\advertisement.obj
-         Debug\bid.obj
-         Debug\bidhistory.obj
-         Debug\buildbidpage.obj
-         Debug\buildpage.obj
-         Debug\categories.obj
-         Debug\category.obj
-         Debug\client.obj
-         Debug\date.obj
-         Debug\group.obj
-         Debug\listing.obj
-         Debug\main.obj
-         Debug\processrequest.obj
-         structure_auction.vcxproj -> c:\users\administrator\documents\visual studio 2010\Projects\structure_auction\Debug\structure_auction.exe
+         所有输出均为最新。
+         structure_auction.vcxproj -> C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\structure_auction\Debug\structure_auction.exe
        FinalizeBuildStatus:
          正在删除文件“Debug\structure_auction.unsuccessfulbuild”。
          正在对“Debug\structure_auction.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“c:\Users\administrator\documents\visual studio 2010\Projects\structure_auction\structure_auction\structure_auction.vcxproj”(build 个目标)的操作。
+     1>已完成生成项目“C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\structure_auction\structure_auction\structure_auction.vcxproj”(build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:07.97
+已用时间 00:00:02.67

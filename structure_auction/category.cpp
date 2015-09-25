@@ -54,17 +54,17 @@ void Category::setName(string name)
 
 void Category::addSubCategory(Category * c)
 {
-    sub_categories.push_back(c);
+    sub_categories.insert(c);
 }
 
 void Category::addItem(int it)
 {
-    items.push_back(it);
+    items.insert(it);
 }
 
 void Category::findOfferings (Listing::iterator start, Listing::iterator finish, Listing &matches)
 {
-    for ( vector<int>::iterator it = items.begin(); it != items.end(); it++){
+    for ( set<int>::iterator it = items.begin(); it != items.end(); it++){
         for ( Listing::iterator i = start; i != finish; i++){
             if ( (*it) == (*i)->getNumber() ) {
 				matches.add(*i);
@@ -76,7 +76,7 @@ void Category::findOfferings (Listing::iterator start, Listing::iterator finish,
 
 void Category::findOfferingsRecursive (Listing::iterator start, Listing::iterator finish, Listing &matches)
 {
-    for ( vector<int>::iterator it = items.begin(); it != items.end(); it++){
+    for ( set<int>::iterator it = items.begin(); it != items.end(); it++){
         for ( Listing::iterator i = start; i != finish; i++){
             if ( (*it) == (*i)->getNumber() ) {
 				matches.add(*i);
@@ -84,27 +84,27 @@ void Category::findOfferingsRecursive (Listing::iterator start, Listing::iterato
 			}
         }
     }
-    for ( vector<Category*>::iterator it = sub_categories.begin(); it != sub_categories.end(); it++){
+    for ( set<Category*>::iterator it = sub_categories.begin(); it != sub_categories.end(); it++){
         (*it)->findOfferingsRecursive(start, finish, matches);
     }
 }
 
-vector<int>::iterator Category::itemsBegin()
+set<int>::iterator Category::itemsBegin()
 {
     return items.begin();
 }
 
-vector<int>::iterator Category::itemsEnd()
+set<int>::iterator Category::itemsEnd()
 {
     return items.end();
 }
 
-vector<Category*>::iterator Category::subCategoriesBegin()
+set<Category*>::iterator Category::subCategoriesBegin()
 {
     return sub_categories.begin();
 }
 
-vector<Category*>::iterator Category::subCategoriesEnd()
+set<Category*>::iterator Category::subCategoriesEnd()
 {
     return sub_categories.end();
 }

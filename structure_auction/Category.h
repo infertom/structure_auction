@@ -3,6 +3,7 @@
 
 #include <string>
 #include <vector>
+#include <set>
 
 #include "Listing.h"
 
@@ -19,8 +20,8 @@ private:
 	int parent;
 	string name;
 
-	vector<Category*> sub_categories;
-	vector<int> items;
+	set<Category*> sub_categories;
+	set<int> items;
 
 public:
 	
@@ -43,10 +44,10 @@ public:
     virtual void findOfferingsRecursive (Listing::iterator start, 
 					Listing::iterator finish, Listing &matches);
 
-	virtual vector<int>::iterator itemsBegin();
-	virtual vector<int>::iterator itemsEnd();
-	virtual vector<Category*>::iterator subCategoriesBegin();
-	virtual vector<Category*>::iterator subCategoriesEnd();
+	virtual set<int>::iterator itemsBegin();
+	virtual set<int>::iterator itemsEnd();
+	virtual set<Category*>::iterator subCategoriesBegin();
+	virtual set<Category*>::iterator subCategoriesEnd();
 
 	virtual bool operator==(const Category& rhs);
 

@@ -10,7 +10,7 @@ Category* Categories::operator[](const int &number)
 
 void Categories::add(Category* ptr)
 {
-    objects.push_back(ptr);
+    objects.insert(ptr);
 }
 
 Categories::iterator Categories::begin()

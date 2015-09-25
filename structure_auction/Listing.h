@@ -13,7 +13,7 @@ using namespace std;
 
 class Listing;
 
-class Listing {
+class Listing { 
 
 protected:
 	typedef vector<Advertisement*> Container;

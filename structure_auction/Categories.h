@@ -2,7 +2,7 @@
 #define CATEGORIES_H
 
 #include <string>
-#include <vector>
+#include <set>
 
 #include "Category.h"
 #include "Listing.h"
@@ -12,7 +12,7 @@ using namespace std;
 class Categories {
 
   protected:
-	typedef vector<Category*> Container;
+	typedef set<Category*> Container;
 
   public:
 	typedef Container::iterator iterator;
